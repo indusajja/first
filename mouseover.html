@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Mouse Over and Mouse Out</title>
+<script>
+function mouseover()
+{
+document.getElementById("img").src="Mouseover.jpg";
+}
+function mouseout()
+{
+document.getElementById("img").src="Mouseout.jpg";
+}
+</script>
+</head>
+<body bgcolor=MediumSpringGreen>
+<h1 align=center>Mouse Over and Mouse Out Events</h1>
+<hr><br>
+<img src="Mouseover.jpg" height="200" width="200" id="img" onmouseover="mouseover()"
+onmouseout="mouseout()">
+</body>
+</html>
+ 
